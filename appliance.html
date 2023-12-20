@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="appliance.css">
+    <title>Appliances</title>
+</head>
+<body>
+    <header>
+        <h2><a href="#" class="logo">dark appliances</a></h2>
+        <ul>
+            <li><a href="#services" class="active">Purchases</a></li>
+            <li><a href="#projects">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="main">
+        <img src="images/stars1.webp" id="stars">
+        <h2 class="appliance">appliance</h2>
+        <img src="images/moon2.webp" id="moon">
+        <img src="images/mountains3.webp" id="mountains3">
+        <img src="images/mountains4.webp" id="mountains4">
+        <img src="images/river5.webp" id="river">
+        <img src="images/boat6.webp" id="boat">
+        <img src="images/mountains7.webp" id="mountains7">
+    </section>
+
+
+    <section class="projects"  id="projects">
+        <h2>Products</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev1.jpeg" />
+                </div>
+                <div class="project-info" id="r1">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">1350 L.E <br>خلاط Tornado 600وات</h3>
+                        <p> لتر ومطحنتان , اسود , 1.5 لتر ,600 وات TB-600/2</p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r1')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev2.jpeg" />
+                </div>
+                <div class="project-info" id="r2">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">14450 L.E <br>شاشة Toshiba</h3>
+                        <p><bdi>بوصة</bdi> 50 k4 <bdi> شاشة سمارات</bdi></p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r2')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div> 
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev4.jpeg" />
+                </div>
+                <div class="project-info" id="r4">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">7000 L.E <br>شاشة Toshiba</h3>
+                        <p><bdi>بوصة</bdi> 32 <bdi> شاشة سمارات</bdi></p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r4')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev5.jpeg" />
+                </div>
+                <div class="project-info" id="r5">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">27000 L.E <br>غسالة Toshiba اوتوماتيك 9كجم</h3>
+                        <p> مع محرك انفرتر ونظام بخاري وتحكم ذكي (WIFI) موراندي جراي </p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r5')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev6.jpeg" />
+                </div>
+                <div class="project-info" id="r6">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">23000 L.E <br>ثلاجة Toshiba </h3>
+                        <p>ثلاجة بسعة 338 لتر-رمادي ليكسيو</p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r6')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev7.jpeg" />
+                </div>
+                <div class="project-info" id="r7">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">18300 L.E <br>تلاجة Toshiba نوفروست </h3>
+                        <p>ثلاجة انفرتر نوفروست 2 باب من توشيبا 359 لتر ستانلس </p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r7')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev8.jpeg" />
+                </div>
+                <div class="project-info" id="r8">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">2300 L.E <br>مروحة Tornado ستاند</h3>
+                        <p>inchs 16 بوصة,4ريش,ريموت كنترول,فينو</p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r8')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev9.jpeg" />
+                </div>
+                <div class="project-info" id="r9">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">1550 L.E <br> مروحة حائط Tornado</h3>
+                        <p>inchs 18 بوصة,4ريش,لون اسود </p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r9')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev10.jpeg" />
+                </div>
+                <div class="project-info" id="r10">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">1300 L.E <br>مروحة سقف Tornado </h3>
+                        <p>مروحة سقف 55بوصة 5سرعات </p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r10')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev11.jpeg" />
+                </div>
+                <div class="project-info" id="r11">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">4750 L.E <br>سخان مياه Tornado</h3>
+                        <P>50 L بطبقة طلاء مينا ومؤشرLED -فضي</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r11')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev12.jpeg" />
+                </div>
+                <div class="project-info" id="r12">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">3300 L.E <br>سخان مياه Fresh</h3>
+                        <P>80 L ابيض من فريش</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r12')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev13.jpeg" />
+                </div>
+                <div class="project-info" id="r13">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">1700 L.E <br>مكواة بخار Tornado</h3>
+                        <P> 2100 watts بقاعدة من السيراميك غير لاصقة باللون الارجواني</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r13')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev14.jpeg" />
+                </div>
+                <div class="project-info" id="r14">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">1450 L.E <br>مكواة بخار Tornado</h3>
+                        <P>مزودة برشاش مياه 1800 وات</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r14')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev15.jpeg" />
+                </div>
+                <div class="project-info" id="r15">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">13000 L.E <br>شاشة Samsung </h3>
+                        <P>43 inchs 4K مع جهاز استقبال مدمج وريموت كنترول-اسود</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r15')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev16.jpeg" />
+                </div>
+                <div class="project-info" id="r16">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">8350 L.E <br>شاشة samsung </h3>
+                        <P>43 inchs LG عالي الدقة FHD,LED مع رسيفر عالي الدقة HD مدمج,اسود</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r16')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev17.jpeg" />
+                </div>
+                <div class="project-info" id="r17">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">26000 L.E <br> تكييف Sharp</h3>
+                        <P>سبليت باردمع خاصية الانفرتر والبلازما كلاستر - فضي - 1.5 حصان</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r17')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev18.jpeg" />
+                </div>
+                <div class="project-info" id="r18">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">33150 L.E <br>تكييف يونيون اير </h3>
+                        <P>سبليت انفرتر ساخن وبارد-اسود 2.25 حصان </P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r18')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev19.jpeg" />
+                </div>
+                <div class="project-info" id="r19">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">29500 L.E <br>تكييف Carrier 1.5 حصان</h3>
+                        <p> مكيف هواء كاريير اوبتيماكس العاكس للتسخين والتبريد 1.5 حصان</p>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r19')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev20.jpeg" />
+                </div>
+                <div class="project-info" id="r20">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">3300 L.E <br> خلاط Tornado </h3>
+                        <P>خلاط يدوي بسعة 1000وات</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r20')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev21.jpeg" />
+                </div>
+                <div class="project-info" id="r21">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">6750 L.E <br>محضر طعام Fresh </h3>
+                        <P>متعدد الخامات,34 وظيفة ,750وات من بلا اند ديكر ,5في1 بمفرمة وخلاط ومطحنة وعصارة حمضيات وماكينة صنع العجين-اسود</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r21')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev22.jpeg" />
+                </div>
+                <div class="project-info" id="r22">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">1150 L.E <br>خلاط Tornado </h3>
+                        <P>خلاط 500 وات مع شفرة ستانلس ستيل و2مطحنة</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r22')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev23.jpeg" />
+                </div>
+                <div class="project-info" id="r23">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">13150 L.E <br>لابتوب HP</h3>
+                        <P>HP EliteBook 840 G5- Core i7-8650U-8G RAM-256G SSD</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r23')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+      
+             <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev24.jpeg" />
+                </div>
+                <div class="project-info" id="r24">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">34750 L.E <br>لابتوب DELL</h3>
+                        <P> G15-5511 للالغاب- Core i5 11260H-8G RAM-512G SSD</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r24')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev25.jpeg" />
+                </div>
+                <div class="project-info" id="r25">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">7700 L.E <br>ايرفراير Philips </h3>
+                        <P>XL ديجيتال بسعة 6.2لتر مع تقنية الهواء السريع ,سلة سهلة التنظيف ,لون اسود </P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r25')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev26.jpeg" />
+                </div>
+                <div class="project-info" id="r26">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">4850 L.E <br>ماكينة اسبريسو Sokani </h3>
+                        <P> ماكينة تحضير القهوة اسبريسو من سوكاني سعة 1.6لتر - من الالومنيوم</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r26')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div> 
+        
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev27.jpeg" />
+                </div>
+                <div class="project-info" id="r27">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">6750 L.E <br>ماكينة اسبريسو Delonghi </h3>
+                        <P>احمر 1.4 لتر </P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r27')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev28.jpeg" />
+                </div>
+                <div class="project-info" id="r28">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">16450 L.E <br>بوتجاز 5 شعلة Unionaire</h3>
+                        <P> 90×60 استانلس ستيل بالكامل - امان كامل</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r28')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dev29.jpeg" />
+                </div>
+                <div class="project-info" id="r29">
+                    <div class="caption">
+                        <i class="fa fa-cart-plus"></i>
+                        <h3 class="project-category">7800 L.E <br>بوتجاز 5 شعلة Fresh </h3>
+                        <P> 55\80 امان فرن وشواية بمروحة توزيع الحرارة</P>
+                        <strong class="project-title">
+                            <button onclick="addToCart('r29')">أضف إلى السلة</button>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">Shopping Car🛒</h2>
+        <div id="cart">
+            <ul id="cart-items"></ul>
+        </div>        
+    </section>
+
+    <div class="container">
+        <h2 class="head">Registration</h2>
+
+        <form method="get">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="tit">personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>First Name</label>
+                            <input type="text" name="firstName" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last Name</label>
+                            <input type="text" name="lasttName" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" name="phone" placeholder="Enter mobile phone" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Government</label>
+                            <select name="government">
+                                <option value="Ismailia">Ismailia</option>
+                                <option value="Sharqia">Sharqia</option>
+                                <option value="Port said">Port said</option>
+                                <option value="Suez">Suez</option>
+                                <option value="Aswan">Aswan</option>
+                                <option value="Asyot">Asyot</option>
+                                <option value="Sohag">Sohag</option>
+                                <option value="Alexandria">Alexandria</option>
+                                <option value="Monofia">Monofia</option>
+                                <option value="Daqahlia">Daqahlia</option>
+                                <option value="Sinai">Sinai</option>
+                                <option value="Cairo">Cairo</option>
+                                <option value="Qena">Qena</option>
+                                <option value="Gharbia">Gharbia</option>
+                                <option value="Sharm elshiekh">Sharm elshiekh</option>
+                                <option value="Ghardaka">Ghardaka</option>
+                                <option value="Elbhera">Elbhera</option>
+                                <option value="Domyat">Domyat</option>
+                                <option value="Fayoum">Fayoum</option>
+                                <option value="Gize">Gize</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" name="address" placeholder="Enter your address" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Appliance</label>
+                            <select name="appliance">
+                                <option value="خلاط"> Tornado خلاط </option>
+                                <option value="شاشة">Toshiba شاشة </option>
+                                <option value="غسالة">Toshiba غسالة</option>
+                                <option value="تلاجة">Toshiba تلاجة</option>
+                                <option value="مروحة">Tornado مروحة</option>
+                                <option value="مروحة سقف">Tornado مروحة سقف</option>
+                                <option value="سخان مياه">Tornado سخان مياه</option>
+                                <option value="سخان مياه">Fresh سخان مياه</option>
+                                <option value="مكواة بخار">Tornado مكواة بخار</option>
+                                <option value="شاشة">Samsung شاشة </option>
+                                <option value="تكييف">Sharp تكييف </option>
+                                <option value="تكييف">تكييف يونيون اير</option>
+                                <option value="تكييف">Carrier تكييف </option>
+                                <option value="محضر طعام">Fresh محضر طعام</option>
+                                <option value="لابتوب">HP لابتوب</option>
+                                <option value="لابتوب">DELL لابتوب</option>
+                                <option value="ايرفراير">Philips ايرفراير</option>
+                                <option value="اسبريسو">Sokani ماكينة اسبريسو</option>
+                                <option value="اسبريسو">Delonghi ماكينة اسبريسو</option>
+                                <option value="بوتوجاز">Unionaire بوتوجاز</option>
+                                <option value="بوتوجاز">Fresh بوتوجاز</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date</label>
+                            <input type="date" name="date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Time</label>
+                            <input type="time" name="time" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="add" type="submit" onclick="addDevice()">Add Order</button>
+        </form>
+    </div>
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+201013867211</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>Dark_Appliance@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>BLACK CROWS</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="appliance.js"></script>
+</body>
+</html>
